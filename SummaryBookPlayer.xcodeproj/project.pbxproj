@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		4354496F2C5BEC02005D5CC4 /* MediaControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354496E2C5BEC02005D5CC4 /* MediaControlsView.swift */; };
 		435449712C5C030B005D5CC4 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435449702C5C030B005D5CC4 /* AudioPlayerManager.swift */; };
-		435449752C5C034C005D5CC4 /* TTPD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 435449742C5C034C005D5CC4 /* TTPD.mp3 */; };
-		435449772C5C0F73005D5CC4 /* CP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 435449762C5C0F73005D5CC4 /* CP.mp3 */; };
-		435449792C5C0F83005D5CC4 /* DBM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 435449782C5C0F82005D5CC4 /* DBM.mp3 */; };
 		4354497D2C5C10E5005D5CC4 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4354497C2C5C10E5005D5CC4 /* Formatters.swift */; };
 		43B421B12C5D2C8500AFC0A4 /* SummaryBookPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEB0EE2C5D2746009892E9 /* SummaryBookPlayerUITests.swift */; };
+		43B421B52C5D421D00AFC0A4 /* CP.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43B421B22C5D421D00AFC0A4 /* CP.mp3 */; };
+		43B421B62C5D421D00AFC0A4 /* DBM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43B421B32C5D421D00AFC0A4 /* DBM.mp3 */; };
+		43B421B72C5D421D00AFC0A4 /* TTPD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 43B421B42C5D421D00AFC0A4 /* TTPD.mp3 */; };
 		43BEB0D42C5CBF4D009892E9 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEB0D32C5CBF4D009892E9 /* Book.swift */; };
 		43BEB0D62C5CC2DF009892E9 /* BookLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEB0D52C5CC2DF009892E9 /* BookLibrary.swift */; };
 		43BEB0D82C5CC6BE009892E9 /* AudioPlayerState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BEB0D72C5CC6BE009892E9 /* AudioPlayerState.swift */; };
@@ -56,10 +56,10 @@
 /* Begin PBXFileReference section */
 		4354496E2C5BEC02005D5CC4 /* MediaControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaControlsView.swift; sourceTree = "<group>"; };
 		435449702C5C030B005D5CC4 /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
-		435449742C5C034C005D5CC4 /* TTPD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TTPD.mp3; path = ../../../../Downloads/TTPD.mp3; sourceTree = "<group>"; };
-		435449762C5C0F73005D5CC4 /* CP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = CP.mp3; path = ../../../../Downloads/CP.mp3; sourceTree = "<group>"; };
-		435449782C5C0F82005D5CC4 /* DBM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DBM.mp3; path = ../../../../Downloads/DBM.mp3; sourceTree = "<group>"; };
 		4354497C2C5C10E5005D5CC4 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
+		43B421B22C5D421D00AFC0A4 /* CP.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CP.mp3; sourceTree = "<group>"; };
+		43B421B32C5D421D00AFC0A4 /* DBM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DBM.mp3; sourceTree = "<group>"; };
+		43B421B42C5D421D00AFC0A4 /* TTPD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = TTPD.mp3; sourceTree = "<group>"; };
 		43BEB0D32C5CBF4D009892E9 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		43BEB0D52C5CC2DF009892E9 /* BookLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookLibrary.swift; sourceTree = "<group>"; };
 		43BEB0D72C5CC6BE009892E9 /* AudioPlayerState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerState.swift; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 		435449732C5C0332005D5CC4 /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				435449782C5C0F82005D5CC4 /* DBM.mp3 */,
-				435449762C5C0F73005D5CC4 /* CP.mp3 */,
-				435449742C5C034C005D5CC4 /* TTPD.mp3 */,
+				43B421B22C5D421D00AFC0A4 /* CP.mp3 */,
+				43B421B32C5D421D00AFC0A4 /* DBM.mp3 */,
+				43B421B42C5D421D00AFC0A4 /* TTPD.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -382,11 +382,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				435449792C5C0F83005D5CC4 /* DBM.mp3 in Resources */,
+				43B421B62C5D421D00AFC0A4 /* DBM.mp3 in Resources */,
+				43B421B52C5D421D00AFC0A4 /* CP.mp3 in Resources */,
+				43B421B72C5D421D00AFC0A4 /* TTPD.mp3 in Resources */,
 				43C823FC2C5BCFCD003B8C69 /* Preview Assets.xcassets in Resources */,
-				435449752C5C034C005D5CC4 /* TTPD.mp3 in Resources */,
 				43C823F82C5BCFCD003B8C69 /* Assets.xcassets in Resources */,
-				435449772C5C0F73005D5CC4 /* CP.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
